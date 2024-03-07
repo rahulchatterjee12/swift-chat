@@ -90,6 +90,9 @@ const page = () => {
         <div className='flex items-center justify-center h-screen'>
             <form onSubmit={handleSubmit} className='min-h-[30vh] bg-white w-[95vw] md:w-[35vw] rounded-lg shadow-md p-5'>
 
+                <h2 className='text-lg font-semibold text-center text-cyan-600'>Swift-Chat</h2>
+                <h2 className='text-base font-semibold text-center text-gray-600'>Create your account.</h2>
+
                 <div className="flex items-center space-y-2 justify-center p-2">
                     <div className='relative'>
                         <img src={avatarUrl} alt="Avatar" className='rounded-full h-20 w-20' />
@@ -156,7 +159,7 @@ const page = () => {
                 </div>
 
 
-                <Button size='small' fullWidth variant='contained' color='inherit' type="submit">Submit</Button>
+                <Button size='small' fullWidth variant='contained' color='inherit' type="submit">Register</Button>
             </form>
         </div>
     )
